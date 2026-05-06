@@ -4,7 +4,7 @@ import matplotlib.pyplot as plt
 
 df=sns.load_dataset("titanic")
 
-print(df)
+print(df.head())
 
 plt.subplot(1,2,1)
 sns.boxplot(x="class", y="age", data=df)
